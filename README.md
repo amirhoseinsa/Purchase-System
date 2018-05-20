@@ -9,7 +9,7 @@ After it, you can run Main.java for seeing the main program.
 
 ### Prerequisites
 
-You need to have H2 Database Engine on your computer.
+You need to have H2 Database Engine on your computer. also, maybe you nees to add "h2-1.4.197.jar" to your Java build path.
 
 
 ## How to work with program
