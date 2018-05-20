@@ -187,7 +187,7 @@ public class DB {
 
 			stmt.executeUpdate(sql);
 
-			// Get the foreign key from ORDERS_BILL
+			// Get the last row id from ORDERS_BILL to be the foreign key in ORDERS_DETAIL
 			sql = "SELECT TOP 1 * FROM ORDERS_BILL ORDER BY id DESC";
 			ResultSet rs = stmt.executeQuery(sql);
 
