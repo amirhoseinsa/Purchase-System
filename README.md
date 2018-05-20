@@ -25,12 +25,12 @@ If you see “Inserted records into the table...” message it means that your o
 
 ## DB Architecture
 
-We three table, “ITEMS” table for record items and their prices, “ORDERS_BILL” table for record the orders and their total prices, “ORDERS_DETAIL” for record the items in any order, the Primary key in “ORDERS_BILL” table is Foreign key in “ORDERS_DETAIL”.
+We have three tables, “ITEMS” table for record items and their prices, “ORDERS_BILL” table for record the orders and their total prices, “ORDERS_DETAIL” for record the items in any order, the Primary key in “ORDERS_BILL” table is Foreign key in “ORDERS_DETAIL”.
 
 ## Note
 
 If you insert an id twice or more, you will see the total amounts of that item in your bill.
-For calculate price I assume that we don’t have tax if you want to add tax you have to change the “tax” value in Main.java
+For calculate price I assume that we don’t have tax if you want to add tax you have to change the “tax” value in Main.java, also,
 You can make any changes you want in “calculatePrice()” function to change the total calculated price and you don’t need to change other part of code.
 ## Authors
 
